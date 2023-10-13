@@ -3,9 +3,9 @@ I have a Laravel application, that sends the errors, that are written to the err
 
 The basis of the project was from https://brianmorrison.me/blog/building-a-hello-world-discord-bot/ and the rest was written with Bing Chat (chapt gpt). Use that link to create your bot on the [discord developer website](https://discord.com/developers) creating the url, and registering it with your server.
 
-Since this is pretty damaging, you'll want to only give your bot access to the channels you need it in. Otherwise any user could blow your entire chat history (100 messages at a time).
+Since this is pretty damaging, you'll want to only give your bot access to the channels you need it in. Otherwise any user could blow your entire chat history.
 
-To run you either run `npm start` which will run and watch for changes to index.js, or you can use `node index.js` which will start the bot. Note: you then have to ctrl+c to exit out.
+To run you either run `npm start` which will run and watch for changes to index.js, or you can use `node index.js` which will start the bot. Note: you then have to ctrl+c to exit out and restart it anytime there are changes.
 
 To host you your bot you can: 
 - [run it locally](https://stackoverflow.com/questions/4018154/how-do-i-run-a-node-js-app-as-a-background-service#15616912) in a terminal or service
