@@ -1,5 +1,6 @@
 // Package to get value from .env
 require('dotenv').config();
+const keepAlive = require('./server');
 
 // Create client and connect
 const prefix = '!';
@@ -59,3 +60,5 @@ client.on('messageCreate', async message => {
         }
     }
 });
+
+keepAlive();
