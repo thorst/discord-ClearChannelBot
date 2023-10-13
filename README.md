@@ -9,6 +9,8 @@ To run you either run `npm start` which will run and watch for changes to index.
 
 To host you your bot you can run it locally in a terminal, or use [Heroku](https://www.youtube.com/watch?v=uH3nWjql2IE), [Repl.it](https://www.youtube.com/watch?v=D7OWuslFYCw), Raspberry Pi, or some other form of hosting like VPS.
 
+I'm using Replit and UptimeRobot as Heroku is no longer free. When you set up your UptimeRobot, be sure to prefix the url with `https://`
+
 Other resources where:
  - https://stackoverflow.com/a/73075344/505829
  - https://stackoverflow.com/a/74151035/505829
