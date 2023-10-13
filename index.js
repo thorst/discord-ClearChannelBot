@@ -1,9 +1,3 @@
-// From tut: https://brianmorrison.me/blog/building-a-hello-world-discord-bot/
-// Intents from: https://stackoverflow.com/a/73075344/505829
-// To run, open terminal, and execute `node index.js`
-// For intents https://stackoverflow.com/a/74151035/505829
-// To run watch, use npm start
-
 // Package to get value from .env
 require('dotenv').config();
 
@@ -58,7 +52,7 @@ client.on('messageCreate', async message => {
                     .then(deleted => message.channel.send(`Deleted ${deleted.size} messages.`))
                     .catch(error => message.channel.send(`There was an error deleting messages: ${error}`));
             } else {
-                
+
                 // If the user does not have permission, send a message
                 return message.reply('you do not have permission to delete messages.');
             }
