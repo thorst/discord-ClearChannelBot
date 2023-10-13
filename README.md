@@ -7,7 +7,7 @@ Since this is pretty damaging, you'll want to only give your bot access to the c
 
 To run you either run `npm start` which will run and watch for changes to index.js, or you can use `node index.js` which will start the bot. Note: you then have to ctrl+c to exit out and restart it anytime there are changes.
 
-To host you your bot you can: 
+To host your bot you can: 
 - [run it locally](https://stackoverflow.com/questions/4018154/how-do-i-run-a-node-js-app-as-a-background-service#15616912) in a terminal or service
 - use [Heroku](https://www.youtube.com/watch?v=uH3nWjql2IE)
 - use  [Repl.it](https://www.youtube.com/watch?v=D7OWuslFYCw)
