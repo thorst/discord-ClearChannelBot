@@ -16,6 +16,13 @@ To host your bot you can:
 
 I'm using Replit and UptimeRobot, for now, as Heroku is no longer free. When you set up your UptimeRobot, be sure to prefix the url with `https://`. I will most likely wrap in a service and just run on my desktop, because it isn't that critical. 
 
+## To Run
+ - Clone repo
+ - `npm update`
+ - To test run `node index.js` (ctrl+c to exit)
+ - To build docker image `docker build -t clearchannelbot .`
+ - To run docker image `docker run -d clearchannelbot` or `docker-compose up -d`
+
 Other resources were:
  - https://stackoverflow.com/a/73075344/505829
  - https://stackoverflow.com/a/74151035/505829

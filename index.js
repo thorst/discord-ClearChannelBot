@@ -50,7 +50,7 @@ client.on('messageCreate', async message => {
 
                 // Delete the messages using bulkDelete method
                 message.channel.bulkDelete(amount, true)
-                    .then(deleted => message.channel.send(`Deleted ${deleted.size} messages.`))
+                    //.then(deleted => {message.channel.send(`Deleted ${deleted.size} messages.`}))
                     .catch(error => message.channel.send(`There was an error deleting messages: ${error}`));
             } else {
 
