@@ -22,6 +22,13 @@ I'm using Replit and UptimeRobot, for now, as Heroku is no longer free. When you
  - To test run `node index.js` (ctrl+c to exit)
  - To build docker image `docker build -t clearchannelbot .`
  - To run docker image `docker run -d clearchannelbot` or `docker-compose up -d`
+  
+## On Ubuntu Docker Server
+ - I use git to pull down the code
+ - `sudo docker build -t clearchannelbot .`
+ - `sudo docker-compose up -d`
+ - `sudo docker run --restart=unless-stopped -d clearchannelbot` start and set to autorestart
+ - `sudo docker logs clearchannelbot` view log
 
 Other resources were:
  - https://stackoverflow.com/a/73075344/505829
